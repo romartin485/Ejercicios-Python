@@ -1,0 +1,116 @@
+#1.Imprimir en Pantalla Nombre completo, Telefono y Correo Electronico.
+
+nombre= "Rodolfo A. Martinez"
+telefono= "809-293-0074"
+email="rodolfo485@hotmail.com"
+
+print(nombre)
+print(telefono)
+print(email)
+
+#2.Crear variables numericas, sumarlas y mostrar el resultado.
+
+a= int
+b= int
+a=5
+b=5
+c=a+b
+print("El Resultado de la Suma es:",c)
+
+#3. Mostrar el precio del ITBIS de un producto con un valor de 750 y su precio final.
+
+a=750
+b=750*0.18
+c=750+135
+
+Artsimp="Su articulo sin Impuesto es:"
+Artcoimp="Su articulo con Impuesto del 18% es:"
+Prefin="Su Precio Final con Impuesto Incluido es:"
+
+print(Artsimp,a)
+print(Artcoimp,b)
+print(Prefin,c)
+
+#4.De 2 numeros saber cual es el mayor.
+
+x = int(input("¿Cuál es el primer número?")) #Se ingresa el primer número
+y = int(input("¿Cuál es el segundo número?")) #Se ingresa el primer número
+if x>y:
+  print('El primer número es mayor.')
+elif y>x:
+  print('El Segundo número es mayor.')
+else:
+  print('Es el mismo número.')
+
+#5.Crear una variable numérica y mostrar si el numero digitado está entre 0 y 25.
+
+num = int(input("Digite un número: "))
+if num < 0:
+    print("El # Digitado es Negativo")
+elif num > 25:
+    print("El # Digitado es Mayor que 25")
+else:
+    print("El # Digitado está entre 0 y 25")
+
+
+#6.Imprimir los numeros del 1 al 100 con while
+
+i = 1
+while i <= 100:
+    print(i)
+    i += 1
+print("Programa terminado")
+
+
+#7.Imprimir los numeros del 1 al 100 con for
+
+for i in range(1,101):
+    print(i)
+
+
+#8.Mostrar caracteres Cadena "Diplomado de Big Data".
+
+mensaje = " Diplomado de Big Data" 
+print (mensaje[0:22])
+
+
+#9.Mostrar los numeros pares del 1 al 300. 
+
+x=1
+while x<302:
+  if x%2==0:
+    print(x)
+  x+=1
+
+#10.Realizar una calculadora de prestamos e indicarle la cuota a pagar.
+
+print ("**************************************************************")
+Nombank=input("Digite el Nombre del Banco:") 
+Nomcli=input("Digite el Nombre del Cliente:")
+Moprest=input("Digite el Monto a Prestar:") 
+Duracion=input("Digite el plazo a Meses:")
+Tasaint=input("Digite la tasa para el prestamo deseado:")
+Intotal=Moprest/100*Tasaint
+Cuotas=Moprest/Duracion
+Intmen=Cuotas/100*Tasaint
+Mocapi=Cuotas-Intmen
+print ("Nombre del Banco",Nombank)
+print ("Nombre del Cliente",Nomcli)
+print ("Monto Prestado",Moprest)
+print ("Cantidad Cuotas",Duracion)
+print ("Interes Total del Prestamo",Intotal)
+print ("Monto de las Cuotas",Cuotas)
+print ("Interes Mensual del Prestamo",Intmen)
+print ("Parte del Capital",Mocapi)
+print ("Gracias por Confiar en Nosotros..!",Mocapi)
+print ("**************************************************************")
+
+
+
+
+
+
+
+
+
+
